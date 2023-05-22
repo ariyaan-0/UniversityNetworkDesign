@@ -8,7 +8,7 @@
 
 
 
-Tasks
+Tasks--------
 
 
 There are several requirements to be ensured in this network and those are given below-
@@ -21,7 +21,7 @@ There are several requirements to be ensured in this network and those are given
 
 
 
-Campus hierarchy
+Campus hierarchy--------
 
 
 To implement this project first we need to organise the hierarchy of the university campus. In this scenario, this university has seven campuses. Assuming each campus has multiple divisions such as Engineering, Life Science, Business Administration and many more. Each division has various departments such as Engineering has CSE, and EEE. Life Science has GEB and pharmacy. Business Administration has BBA and MBA. At the very bottom, each department has a different type of activity such as class, lab, office etc.
@@ -31,7 +31,7 @@ We have to provide IP addresses in such a way so that every division, department
 
 
 
-Network Design
+Network Design--------
 
 
 In this project, we are assuming campus 6 to be the main campus. Design inside a campus has been shown for campus 6. Other campuses will be implemented in the same way.
