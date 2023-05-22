@@ -1,0 +1,363 @@
+Campus 6
+
+interface se2/0
+ip address 192.7.6.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface fa8/0
+ip address 6.240.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 6.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.32.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+interface fa9/0
+ip address 6.48.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Router CSE
+
+interface fa0/0
+ip address 6.16.64.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.16.72.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa7/0
+ip address 6.16.80.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.16.88.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+Router EEE
+
+interface fa0/0
+ip address 6.16.128.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.16.136.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.16.144.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa7/0
+ip address 6.16.152.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Router BBA
+
+interface fa0/0
+ip address 6.32.64.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.32.72.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.32.80.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Router MBA
+
+interface fa0/0
+ip address 6.32.128.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.32.136.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.32.144.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+Router GEB
+
+interface fa0/0
+ip address 6.48.64.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.48.72.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.48.80.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa7/0
+ip address 6.48.88.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Router Pharmacy
+
+interface fa0/0
+ip address 6.48.128.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa1/0
+ip address 6.48.136.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa6/0
+ip address 6.48.144.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+interface fa7/0
+ip address 6.48.152.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+
+Campus 4
+
+
+interface se2/0
+ip address 192.4.7.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.5.4.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 4.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Campus 5
+
+interface se2/0
+ip address 192.5.7.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.5.4.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 5.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+Campus 2
+
+interface se3/0
+ip address 192.2.3.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 192.2.7.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 2.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+Campus 1
+
+interface se2/0
+ip address 192.7.1.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 1.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+
+Campus 3 Class B
+
+interface se3/0
+ip address 193.2.3.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se2/0
+ip address 193.3.7.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 128.1.1.1 255.255.0.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
+
+Router 7
+
+interface se2/0
+ip address 192.7.1.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface se3/0
+ip address 192.2.7.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se6/0
+ip address 192.3.7.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se7/0
+ip address 192.7.6.1 255.255.255.0
+clock rate 64000
+no shut
+do wr
+exit
+
+interface se8/0
+ip address 192.4.7.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface se9/0
+ip address 192.5.7.2 255.255.255.0
+no shut
+do wr
+exit
+
+interface fa0/0
+ip address 7.16.0.1 255.255.248.0
+ip helper-address 6.224.7.254
+no shut
+do wr
+exit
